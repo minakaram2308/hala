@@ -8,3 +8,8 @@ p,span,h1,h2,h3,h4,h5,h6,a,button{
 span.logo{
     margin-right: 10px;
 }
+footer .widget .iq-contact li i {
+    margin-left: 15px;
+    line-height: 22px;
+    margin-right: 0;
+}

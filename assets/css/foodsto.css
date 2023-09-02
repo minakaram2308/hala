@@ -15811,11 +15811,10 @@ footer .widget .iq-contact li a:before {
 }
 
 footer .widget .iq-contact li a span {
-    -webkit-box-flex: 1;
-    -webkit-flex: 1;
-    -ms-flex: 1;
-    flex: 1;
     color: #6c7689
+}
+.underHover:hover{
+    text-decoration: underline;
 }
 
 footer .widget .iq-contact li i {
