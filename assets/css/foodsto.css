@@ -4696,7 +4696,7 @@ fieldset:disabled .btn {
 .navbar-brand {
     padding-top: .5625rem;
     padding-bottom: .5625rem;
-    margin-right: 1rem;
+    margin-right: 0rem;
     font-size: 1.25rem;
     white-space: nowrap
 }
@@ -15470,7 +15470,8 @@ body.home-3 header {
         -webkit-transform: translate(0, -50%);
         -ms-transform: translate(0, -50%);
         transform: translate(0, -50%);
-        right: 0
+        right: 0;
+        display: none;
     }
 
     header .navbar-light .navbar-toggler-icon {
@@ -16086,7 +16087,6 @@ footer .widget .iq-contact li i {
     font-weight: normal;
     position: relative;
     font-weight: 500;
-    font-size: 1rem;
     -webkit-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out
@@ -19565,4 +19565,14 @@ body.swal2-toast-shown .swal2-container.swal2-bottom-right {
 }
 .logo_block{
     padding: 30px 0;
+    display: flex;
+}
+.logo{
+    color: var(--bs-primary) !important;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 1.7rem;
+}
+.logo-orange{
+    color: #ffba43;
 }
