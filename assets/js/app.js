@@ -166,7 +166,7 @@ Index Of Script
             reverseButtons: true
         }).then((result) => {
             if (result.isConfirmed) {
-                btn.querySelector('.btn').innerHTML = 'View Cart <i aria-hidden="true" class="fas fa-long-arrow-alt-right ms-2"></i>'
+                btn.querySelector('.btn').innerHTML = 'View Cart <i aria-hidden="true" class="fas fa-long-arrow-alt-left ms-2"></i>'
                 return true
             } else if (
                 /* Read more about handling dismissals below */

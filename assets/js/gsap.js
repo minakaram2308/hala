@@ -134,7 +134,7 @@
 
       const animatedButton = document.querySelectorAll('.animation-btn')
       Array.from(animatedButton, (elem) => {
-        elem.innerHTML = elem.textContent.replace(/\S/g, "<span class='anim d-inline-block'>$&</span>") + '<i aria-hidden="true" class="fas fa-long-arrow-alt-right ms-2"></i>'
+        // elem.innerHTML = elem.textContent.replace(/\S/g, "<span class='anim d-inline-block'>$&</span>") + '<i aria-hidden="true" class="fas fa-long-arrow-alt-right ms-2"></i>'
           const t1 = gsap.timeline()
           t1.to(elem.querySelectorAll('.anim'), {y: -4, stagger: {each: .1, repeat: 1, yoyo: true}, duration: .4})
           t1.pause();

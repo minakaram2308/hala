@@ -12,7 +12,10 @@
 :focus {
     outline: none
 }
-
+@font-face {
+    font-family: 'Gest';
+    src: url('../fonts/GESSTwoBold-Bold.woff');
+}
 :root {
     --bs-blue: #3bb77e;
     --bs-orange: #ffba43;
@@ -14878,7 +14881,6 @@ header .iq-shop-btn-holder ul li:first-child {
 }
 
 header .iq-shop-btn-holder ul li i {
-    font-size: 20px;
     height: 20px;
     width: 20px
 }
@@ -19575,4 +19577,7 @@ body.swal2-toast-shown .swal2-container.swal2-bottom-right {
 }
 .logo-orange{
     color: #ffba43;
+}
+.arBtn{
+    font-family: Gest;
 }
